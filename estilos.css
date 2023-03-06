@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    /* /background: #341f97; */
+    /* background-image: url("img/fondo.png"); */
+   
+    display: flex;
+    min-height:     70vh;
+
+}
+
+.contenedor {
+    margin: auto;
+    perspective: 700px;
+    align-content: center;
+    /*transform: rotateY(0deg);*/
+}
+
+
+table{
+    margin: auto;
+    zoom: 2.5;
+    /* perspective: 100px; */
+
+}
+
+h1{
+    font-size: 70px;
+}
+
+.input{
+    margin: 2px;
+    height: 31px;
+    width: 25px;
+    
+    /* padding-top: 1.5px; */
+}
+
+.bajar{
+    margin: 2px;
+    height: 31px;
+    width: 25px;
+    padding-top: 1.3px;
+}
+
+/* .hover:hover{} */
+
+.center >button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* ====== Fondos======== */
+.blue{
+    background: linear-gradient(rgb(4, 0, 255), rgb(111, 0, 255),rgb(183, 0, 255),rgb(255, 0, 242),rgb(255, 0, 106));
+    width: 30px;
+    height: 35px;
+    
+}
+
+.red{
+    background: linear-gradient( rgb(255, 0, 0),rgb(255, 94, 0),rgb(255, 174, 0),rgb(217, 255, 0),rgb(136, 255, 0));
+    width: 30px;
+    height: 35px;
+    
+}
+
+.green{
+    background: linear-gradient( rgb(43, 255, 0), rgb(3, 255, 87),rgb(3, 255, 200),rgb(3, 163, 255),rgb(3, 62, 255));
+    width: 30px;
+    height: 35px;
+    
+}
+
+
+
+/* Boton */
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+
+  .boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
